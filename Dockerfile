@@ -1,4 +1,4 @@
-FROM golang:1.4
+FROM golang:1.9
 MAINTAINER Daniel Huckstep <danielh@getyardstick.com>
 
 RUN go get github.com/mailhog/MailHog
